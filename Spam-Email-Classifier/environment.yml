@@ -1,0 +1,18 @@
+name: spam_classification
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - flask=3.1.0
+  - flask-sqlalchemy=3.1.1
+  - flask-cors=3.0.10
+  - imbalanced-learn=0.13.0
+  - joblib=1.4.2
+  - matplotlib=3.10.0
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - seaborn=0.13.2
+  - scikit-learn=1.6.0
+  - wordcloud=1.9.4
+  - xgboost=3.0.0
