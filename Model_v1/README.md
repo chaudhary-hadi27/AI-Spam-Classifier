@@ -42,9 +42,7 @@ Raw Dataset → Preprocessing → SMOTE Balancing → Model Training → GUI →
 
 > 🧠 **Model Efficiency on Unseen Data:**  
 > While the model performs with **~99% accuracy** on the training data, I believe it is around **80% efficient** when handling **unseen data**. This is because real-world email data often introduces variability that may not have been captured during training.  
->  
-> 🔜 **Upcoming Version:**  
-> A new version of the model is in development and will be released soon with improved accuracy for better handling of unseen data.
+
 ---
 
 # 📁 Project Structure
@@ -81,33 +79,4 @@ The **frontend** folder contains the user interface of the web app built with **
 
 ---
 
-## 📁 How to Access Full Project
-
-For complete functionality, it’s recommended to clone the entire project. You can access all folders (dataset, backend, models-&-reports, and frontend) for a fully integrated experience.
-
-
-
-## 📦 Setup Instructions
-
-### 1. Clone the Repository
-
-**Complete Model**
-
-```bash
-# Clone the repository
-git clone https://github.com/chaudhary-hadi27/Model_v1.git
-cd Model_v1
-
-# Setup and activate the conda environment for backend
-conda env create -f ../environment.yml 
-conda activate spam_classification
-
-# Install frontend dependencies
-cd frontend-Next.js
-npm install
-
-# Go back to backend and start the API server
-cd ../backend
-python app.py
-```
 > ✅ Once the backend is running, the frontend will automatically connect to it — no additional configuration is needed.
