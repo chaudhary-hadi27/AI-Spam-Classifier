@@ -76,31 +76,6 @@ The model was evaluated using:
     - ![svm_confusion_matrix.png](svm_reports/svm_confusion_matrix.png)
    
 ---
-
-
-## 📦 Setup Instructions
-
-## 🔧 Clone Model-&-Reports Only (Optional)
-### I recommend cloning the entire project along with all files for full functionality.
-**But if you only want the model-&-reports, here are the steps to do that:**
-
-```bash
-git clone --filter=blob:none --no-checkout https://github.com/chaudhary-hadi27/Model_v1.git
-cd Model_v1
-
-git sparse-checkout init --cone
-git sparse-checkout set model-&-reports
-
-cd models-&-reports
-
-# Setup 
-pip install joblib
-```
-
-
-## 🔗 To clone the full project `(dataset + backend + frontend + models)`, check out the [README.md](../README.md).
-
----
 # 🚀 Usage Example
 
 ```python
