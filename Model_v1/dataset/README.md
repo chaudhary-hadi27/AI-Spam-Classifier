@@ -151,27 +151,4 @@ Raw Dataset → Preprocessing → SMOTE Balancing → Model Training → GUI →
 For any queries, feel free to reach out:
 📧 **Email:** chaudharyhadi27@gmail.com
 
-
-
-## 📦 Setup Instructions
-
-## 🔧 Clone Dataset Only (Optional)
-### I recommend cloning the entire project along with all files for full functionality.
-**But if you only want the dataset, here are the steps to do that:**
-```bash
-git clone --filter=blob:none --no-checkout https://github.com/chaudhary-hadi27/Model_v1.git
-cd Model_v1
-
-git sparse-checkout init --cone
-git sparse-checkout set dataset
-
-cd dataset
-
-# Setup 
-conda env create -f ../environment.yml 
-conda activate spam_classification
-
-```
-
-
-## 🔗 To clone the full project `(dataset + backend + frontend + models)`, check out the [README.md](../README.md).
+---
