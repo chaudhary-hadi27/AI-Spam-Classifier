@@ -88,32 +88,6 @@ Default contact:
 
 ---
 
-## 📦 Setup Instructions
-
-## 🔧 Clone Frontend Only (Optional)
-
-### I recommend cloning the entire project along with all files for full functionality.
-
-**But if you only want the frontend, here are the steps to do that:**
-- The frontend does not classify any email if the backend is not running, because it relies on the backend functionalities .
-- Ensure all paths are correct.
-
-```bash
-git clone --filter=blob:none --no-checkout https://github.com/chaudhary-hadi27/Model_v1.git
-cd Model_v1
-git sparse-checkout init --cone
-git sparse-checkout set frontend-Next.js
-
-cd frontend-Next.js
-
-npm install
-npm run dev
-```
-
-## 🔗 To clone the full project `(dataset + backend + frontend + models)`, check out the [README.md](../README.md).
-
----
-
 ## 📸 Screenshots
 
 ![1st.png](src/Images_of_GUI/1st.png)
