@@ -17,20 +17,6 @@ Our current stable release is:
 ➡️ **Check the full documentation here:**  
 [`Model_v1/README.md`](Model_v1/README.md)
 
-
----
-
-## 🧪 Upcoming Release: `Model_v2`
-
-We're actively working on the next iteration:
-
-- 📈 Improved preprocessing and feature engineering
-- 🧠 Aiming for even better accuracy and performance
-- 🌐 API improvements and enhanced UX for the web app
-
-
-Stay tuned for **`Model_v2`**, launching soon with better performance and scalability!
-
 ---
 
 ## 📁 Project Structure
@@ -43,7 +29,5 @@ Stay tuned for **`Model_v2`**, launching soon with better performance and scalab
 │   ├── frontend/     # Next.js frontend
 │   ├── dataset/      # Dataset used for training
 │   └── models/       # Saved models and evaluation reports
-│
-├── Model_v2/         # (Coming Soon...) Experimental upgrades
 │
 └── README.md         # Main project overview (this file)
