@@ -19,13 +19,17 @@ Our current stable release is:
 
 ---
 
-## 📊 SVM Model Results
+## 📊 SVM Model Interface & Results
 
-Here are some sample results from the **SVM classifier**:
+Here is the **user interface** and **sample classification results** from the **SVM classifier**. The design has been structured professionally to highlight the input, sidebar history, and results in a clean layout:
 
-![SVM Results](Model_v1/models/svm_results.png)
+* **Input Box:** Type your email text here (e.g., "Hello friends")
+* **Sidebar:** Shows the history of classified emails
+* **Results Panel:** Displays the classification outcome and probability scores
 
-These results demonstrate the **high accuracy** and **balanced precision-recall** achieved in spam detection.
+![SVM Interface & Results](Model_v1/frontend-Next.js/src/Images_of_GUI/3nd.png)
+
+These results demonstrate the **high accuracy** and **balanced precision-recall** achieved in spam detection, while maintaining a user-friendly and professional interface.
 
 ---
 
@@ -35,7 +39,7 @@ These results demonstrate the **high accuracy** and **balanced precision-recall*
 📦 Spam-Email-Classifier/
 │
 ├── Model_v1/         # Current working model version (SVM & XGBoost)
-│   ├── backend/      # Flask API for model serving
+│   ├── backend/      # Flask API for model serving (starts frontend automatically)
 │   ├── frontend/     # Next.js frontend
 │   ├── dataset/      # Dataset used for training
 │   └── models/       # Saved models and evaluation reports
@@ -93,34 +97,21 @@ dependencies:
 
 ---
 
-### 3️⃣ Start the Backend (Flask API)
+### 3️⃣ Start the Backend & Frontend
 
-Navigate to the backend folder and start the API server:
+Simply run the backend Python script:
 
 ```bash
 cd Model_v1/backend
 python app.py
 ```
 
-* The backend will start on **`http://127.0.0.1:5000`** by default.
+* This will **start both the backend API** and **automatically launch the frontend**.
+* The app will be accessible at **`http://localhost:3000`**.
 
 ---
 
-### 4️⃣ Start the Frontend (Next.js UI)
-
-Open a new terminal, navigate to the frontend folder, and run:
-
-```bash
-cd Model_v1/frontend
-npm install
-npm run dev
-```
-
-* The frontend will start on **`http://localhost:3000`**.
-
----
-
-### 5️⃣ Access the App
+### 4️⃣ Access the App
 
 Open your browser and go to:
 
@@ -130,7 +121,7 @@ Here, you can:
 
 * Upload email text
 * Classify it as **Spam** or **Not Spam**
-* View probability scores
+* View probability scores and history in a structured sidebar
 
 ---
 
@@ -139,10 +130,8 @@ Here, you can:
 ```plaintext
 conda env create -f environment.yml
 conda activate ai-spam-classifier-v1
-# Start Backend
-cd Model_v1/backend && python app.py
-# Start Frontend
-cd Model_v1/frontend && npm install && npm run dev
+cd Model_v1/backend
+python app.py  # Backend + Frontend starts automatically
 ```
 
 ---
@@ -159,3 +148,5 @@ cd Model_v1/frontend && npm install && npm run dev
 ## 📚 License
 
 This project is released under the MIT License.
+
+
