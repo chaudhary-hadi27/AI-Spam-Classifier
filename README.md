@@ -23,9 +23,11 @@ Our current stable release is:
 
 Here is the **user interface** and **sample classification results** from the **SVM classifier**. The design has been structured professionally to highlight the input, sidebar history, and results in a clean layout:
 
-* **Input Box:** Type your email text here (e.g., "Hello friends")
-* **Sidebar:** Shows the history of classified emails
+* **Input Box:** Type your email text here (e.g., "Urgent: Your account has been suspended! Verify immediately at http://secure-login123.com to avoid permanent closure.")
 * **Results Panel:** Displays the classification outcome and probability scores
+* **Sidebar:** Shows the history of classified emails
+* **History Panel**: Can be opened or closed from the sidebar.
+* **Theme Toggle**: Switches between dark and light modes.
 
 ![SVM Interface & Results](Model_v1/frontend-Next.js/src/Images_of_GUI/3nd.png)
 
