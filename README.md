@@ -58,8 +58,8 @@ Follow these steps to set up and run **Spam Email Classifier - Model\_v1** on yo
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/Spam-Email-Classifier.git
-cd Spam-Email-Classifier
+git https://github.com/chaudhary-hadi27/AI-Spam-Classifier.git
+cd AI-Spam-Classifier
 ```
 
 ---
